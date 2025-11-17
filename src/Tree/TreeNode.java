@@ -1,0 +1,13 @@
+package Tree;
+
+public abstract class TreeNode<E> {
+    protected E info;
+
+    public TreeNode() {
+        this.info = null;
+    }
+
+    public TreeNode(E info) {
+        this.info = info;
+    }
+}
